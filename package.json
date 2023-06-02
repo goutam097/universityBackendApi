@@ -1,0 +1,35 @@
+{
+  "name": "todolistbackendapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.28.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
