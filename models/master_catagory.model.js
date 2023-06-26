@@ -26,7 +26,7 @@ const master_catagories = sequelize.define("master_catagories", {
     status: {
         type: Sequelize.ENUM("Yes", "No"),
         allowNull: true,
-        defaultValue: "No",
+        defaultValue: "Yes",
     },
     createdAt: {
         type: Sequelize.DATE,

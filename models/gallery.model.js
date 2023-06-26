@@ -22,7 +22,7 @@ const gallery = sequelize.define("galleries", {
     status: {
         type: Sequelize.ENUM("Yes", "No"),
         allowNull: true,
-        defaultValue: "No",
+        defaultValue: "Yes",
     },
     createdAt: {
         type: Sequelize.DATE,
